@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+  <channel>
+    <title>Steam - Ofertas Destacadas</title>
+    <link>https://store.steampowered.com</link>
+    <description>Últimas ofertas y juegos populares en Steam</description>
+    <language>es</language>
+
+    <item>
+      <title>Cyber Adventure 2077</title>
+      <description>Aventura épica en mundo abierto</description>
+      <price>59.99€</price>
+    </item>
+
+    <item>
+      <title>Among Us</title>
+      <description>Multijugador de deducción social</description>
+      <price>3.49€ (−30%)</price>
+    </item>
+
+    <item>
+      <title>DOOM Eternal</title>
+      <description>FPS de acción intensa</description>
+      <price>19.99€ (−50%)</price>
+    </item>
+
+    <item>
+      <title>Ori and the Will of the Wisps</title>
+      <description>Plataformas y aventura emocional</description>
+      <price>13.49€ (−55%)</price>
+    </item>
+
+    <item>
+      <title>Assassin's Creed III</title>
+      <description>Aventura épica en mundo abierto</description>
+      <price>9.99€ (−75%)</price>
+    </item>
+
+    <item>
+      <title>Expedition 33</title>
+      <description>Aventura por turnos</description>
+      <price>39.99€ (−20%)</price>
+    </item>
+
+    <item>
+      <title>Elden Ring</title>
+      <description>Aventura épica en mundo abierto</description>
+      <price>59.99€</price>
+    </item>
+
+  </channel>
+</rss>

@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Steam - Tienda de Juegos</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" type="image/png"
+        href="data:image/jpeg;base64,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">
+</head>
+
+<body class="page-index">
+
+    <header class="site-header">
+        <div class="inner">
+            <a class="brand" href="index.html">STEAM</a>
+            <nav class="nav">
+                <a href="index.html">TIENDA</a>
+                <a href="comunidad.html">COMUNIDAD</a>
+                <a href="acercade.html">ACERCA DE</a>
+                <a href="soporte.html">SOPORTE</a>
+            </nav>
+            <a class="btn" href="login.html">Iniciar sesión</a>
+        </div>
+    </header>
+
+    
+    <main>
+        
+        <div class="banner-ofertas">
+          <h1><i>OFERTAS DESTACADAS</i></h1>
+                  <button><a href="noticias.xml"> clic aquí</a></button>
+
+          <h2><u>Ahorra hasta un 90% en los mejores juegos</u></h2>
+        </div>
+
+        <hr>
+        
+        <section class="games-section">
+          <h2 id="Juegos-populares">Juegos Populares</h2>
+          <div class="games-grid">
+
+            
+            <div class="game-card">
+              <img class="game-card__img" src="https://enderg.com/wp-content/uploads/2022/08/cyberpunk-2077-box-art-01-ps4-us-06jun19.jpg" alt="Cyber Adventure 2077">
+              <div class="game-card__info">
+                <span class="game-card__title">Cyber Adventure 2077</span>
+                <span class="game-card__desc">Aventura épica en mundo abierto</span>
+                <div class="game-card__price">
+                  <span class="price-only">59.99€</span>
+                </div>
+              </div>
+            </div>
+
+            
+            <div class="game-card">
+              <img class="game-card__img" src="https://i.3djuegos.com/juegos/17520/fotos/ficha/-5245512.webp" alt="Among Us">
+              <div class="game-card__info">
+                <span class="game-card__title">Among Us</span>
+                <span class="game-card__desc">Multijugador de deducción social</span>
+                <div class="game-card__price">
+                  <span class="badge-discount">-30%</span>
+                  <span class="price-original">4,99€</span>
+                  <span class="price-final">3,49€</span>
+                </div>
+              </div>
+            </div>
+
+            
+            <div class="game-card">
+              <img class="game-card__img" src="http://s01.riotpixels.net/data/0a/bc/0abc6ad9-fe7d-4669-9ef8-64a618a94e75.jpg.240p.jpg" alt="DOOM Eternal">
+              <div class="game-card__info">
+                <span class="game-card__title">DOOM Eternal</span>
+                <span class="game-card__desc">FPS de acción intensa</span>
+                <div class="game-card__price">
+                  <span class="badge-discount">-50%</span>
+                  <span class="price-original">39,99€</span>
+                  <span class="price-final">19,99€</span>
+                </div>
+              </div>
+            </div>
+
+            
+            <div class="game-card">
+              <img class="game-card__img" src="https://m.media-amazon.com/images/I/71lrn1adw9L._AC_SY879_.jpg" alt="Ori and the Will of the Wisps">
+              <div class="game-card__info">
+                <span class="game-card__title">Ori and the Will of the Wisps</span>
+                <span class="game-card__desc">Plataformas y aventura emocional</span>
+                <div class="game-card__price">
+                  <span class="badge-discount">-55%</span>
+                  <span class="price-original">29,99€</span>
+                  <span class="price-final">13,49€</span>
+                </div>
+              </div>
+            </div>
+
+            
+            <div class="game-card">
+              <img class="game-card__img" src="https://static.posters.cz/image/1300/poster/assassin-s-creed-iii-cover-i13272.jpg" alt="Assassin's Creed III">
+              <div class="game-card__info">
+                <span class="game-card__title">Assassin's Creed III</span>
+                <span class="game-card__desc">Aventura épica en mundo abierto</span>
+                <div class="game-card__price">
+                  <span class="badge-discount">-75%</span>
+                  <span class="price-original">39,99€</span>
+                  <span class="price-final">9,99€</span>
+                </div>
+              </div>
+            </div>
+
+            
+            <div class="game-card">
+              <img class="game-card__img" src="https://i.3djuegos.com/juegos/19783/clair_obscur_expedition_33/fotos/ficha/clair_obscur_expedition_33-5897212.jpg" alt="Expedition 33">
+              <div class="game-card__info">
+                <span class="game-card__title">Expedition 33</span>
+                <span class="game-card__desc">Aventura épica basada en combates por turnos</span>
+                <div class="game-card__price">
+                  <span class="badge-discount">-20%</span>
+                  <span class="price-original">49,99€</span>
+                  <span class="price-final">39,99€</span>
+                </div>
+              </div>
+            </div>
+
+            
+            <div class="game-card">
+              <img class="game-card__img" src="https://uvejuegos.com/img/caratulas/62850/1_pc.jpg" alt="Señor del Círculo (Elden Ring)">
+              <div class="game-card__info">
+                <span class="game-card__title">Señor del Círculo</span>
+                <span class="game-card__desc">Aventura épica en mundo abierto</span>
+                <div class="game-card__price">
+                  <span class="price-only">59.99€</span>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </section>
+
+        <hr>
+
+        
+        <section class="games-section">
+          <h2>Juegos Gratis</h2>
+          <div class="games-grid">
+
+            
+            <div class="game-card">
+              <img class="game-card__img" src="https://i.redd.it/v7dsl4oh46sf1.png" alt="Forza Horizon 6">
+              <div class="game-card__info">
+                <span class="game-card__title">Forza Horizon 6</span>
+                <span class="game-card__desc">Aventura épica de coches y carreras</span>
+                <div class="game-card__price">
+                  <span class="badge-discount">-100%</span>
+                  <span class="price-original">99,99€</span>
+                  <span class="price-final">0,00€</span>
+                </div>
+              </div>
+            </div>
+
+            
+            <div class="game-card">
+              <img class="game-card__img" src="https://images.g2a.com/360x600/1x1x1/call-of-duty-black-ops-7-pc-steam-cuenta-global-i10000512118005/65c578d51bf74a9290e402fd" alt="Call of Duty: Black Ops 7">
+              <div class="game-card__info">
+                <span class="game-card__title">Call of Duty: Black Ops 7</span>
+                <span class="game-card__desc">Aventura épica shooter</span>
+                <div class="game-card__price">
+                  <span class="badge-discount">-100%</span>
+                  <span class="price-original">39,99€</span>
+                  <span class="price-final">0,00€</span>
+                </div>
+              </div>
+            </div>
+
+            
+            <div class="game-card">
+              <img class="game-card__img" src="http://s01.riotpixels.net/data/0a/f5/0af5e35a-7aa2-45b1-9a96-b27c6b088c51.jpg.1080p.jpg/cover.hades.784x1080.2018-12-07.7.jpg" alt="Hades">
+              <div class="game-card__info">
+                <span class="game-card__title">Hades</span>
+                <span class="game-card__desc">Acción roguelike mitológica</span>
+                <div class="game-card__price">
+                  <span class="badge-discount">-100%</span>
+                  <span class="price-original">24,99€</span>
+                  <span class="price-final">0,00€</span>
+                </div>
+              </div>
+            </div>
+
+            
+            <div class="game-card">
+              <img class="game-card__img" src="https://i.redd.it/stardew-valley-isometric-v0-h54hhv2f7axf1.png?width=5000&format=png&auto=webp&s=dec485270743b06cfc58cdd5c308118538015298" alt="Stardew Valley">
+              <div class="game-card__info">
+                <span class="game-card__title">Stardew Valley</span>
+                <span class="game-card__desc">Simulación de granja y vida</span>
+                <div class="game-card__price">
+                  <span class="badge-discount">-100%</span>
+                  <span class="price-original">14,99€</span>
+                  <span class="price-final">0,00€</span>
+                </div>
+              </div>
+            </div>
+
+            
+            <div class="game-card">
+              <img class="game-card__img" src="https://i.pinimg.com/236x/a6/a4/3c/a6a43ce68fd3ceecbdfad90a088ae3b9.jpg" alt="Grand Theft Auto V">
+              <div class="game-card__info">
+                <span class="game-card__title">Grand Theft Auto V</span>
+                <span class="game-card__desc">Aventura épica en mundo abierto</span>
+                <div class="game-card__price">
+                  <span class="badge-discount">-100%</span>
+                  <span class="price-original">44,99€</span>
+                  <span class="price-final">0,00€</span>
+                </div>
+              </div>
+            </div>
+
+            
+            <div class="game-card">
+              <img class="game-card__img" src="https://uvejuegos.com/img/caratulas/62871/AoE-II-DE-arte-vertical.jpg" alt="Age of Empires II Definitive Edition">
+              <div class="game-card__info">
+                <span class="game-card__title">Age of Empires II DE</span>
+                <span class="game-card__desc">Estrategia en tiempo real histórica</span>
+                <div class="game-card__price">
+                  <span class="badge-discount">-100%</span>
+                  <span class="price-original">39,99€</span>
+                  <span class="price-final">0,00€</span>
+                </div>
+              </div>
+            </div>
+
+            
+            <div class="game-card">
+              <img class="game-card__img" src="https://i.3djuegos.com/juegos/9592/the_witcher_3/fotos/ficha/the_witcher_3-2546814.webp" alt="The Witcher III">
+              <div class="game-card__info">
+                <span class="game-card__title">The Witcher III</span>
+                <span class="game-card__desc">Aventura épica en mundo abierto</span>
+                <div class="game-card__price">
+                  <span class="badge-discount">-100%</span>
+                  <span class="price-original">29,99€</span>
+                  <span class="price-final">0,00€</span>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </section>
+
+        <hr>
+
+        
+        <section class="location">
+            <h2 class="location__title">Ubicación de nuestra Sede</h2>
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3168.6343887501134!2d-122.0849374424758!3d37.42211571895281!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808fba0263f6d1d3%3A0x1f8471207cea5ea0!2s1600%20Amphitheatre%20Pkwy%2C%20Mountain%20View%2C%20CA%2094043%2C%20EE.%20UU.!5e0!3m2!1ses!2ses!4v1765970685209!5m2!1ses!2ses"
+                width="600" height="450" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </section>
+
+        <hr>
+    </main>
+
+    <footer>
+        <div>
+            <h6>
+                <p>© 2025 Steam. Todos los derechos reservados.</p>
+                <a href="https://store.steampowered.com/privacy_agreement/" style="color: #8f98a0">Política de Privacidad</a>
+                <a href="https://store.steampowered.com/legal/" style="color: #8f98a0">Legal</a>
+                <a href="https://store.steampowered.com/subscriber_agreement/" style="color: #8f98a0">Acuerdo de Suscriptor</a>
+            </h6>
+        </div>
+    </footer>
+
+</body>
+
+</html>

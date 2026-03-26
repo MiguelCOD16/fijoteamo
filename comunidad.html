@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Comunidad Steam</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="shortcut icon" type="image/png"
+    href="data:image/jpeg;base64,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">
+</head>
+
+<body>
+
+  <header class="site-header">
+    <div class="inner">
+      <a class="brand" href="index.html">STEAM</a>
+      <nav class="nav">
+        <a href="index.html">TIENDA</a>
+        <a href="comunidad.html">COMUNIDAD</a>
+        <a href="acercade.html">ACERCA DE</a>
+        <a href="soporte.html">SOPORTE</a>
+      </nav>
+      <a class="btn" href="login.html">Iniciar sesión</a>
+    </div>
+  </header>
+
+  <main style="width:100%; max-width:none; padding:0;">
+
+    <div class="community-wrap">
+
+
+
+
+      <section class="feed">
+
+
+        <article class="review-card">
+          <div class="review-useful">A 70 personas les pareció útil esta reseña &nbsp;·&nbsp; 25 personas encontraron
+            divertida esta reseña &nbsp;<span class="hl">♥ 31</span></div>
+          <div class="review-header">
+            <img class="review-avatar"
+              src="https://static-cdn.jtvnw.net/jtv_user_pictures/63f58221-54b3-4382-aec5-ef94d46fb1cb-profile_image-300x300.png"
+              alt="LunarCtrl">
+            <div class="review-meta">
+              <div class="review-verdict">
+                <img class="verdict-icon"
+                  src="https://community.akamai.steamstatic.com/public/shared/images/userreviews/icon_thumbsUp.png?v=1"
+                  alt="👍">
+                <span class="verdict-yes">Recomendado</span>
+              </div>
+              <div class="review-hours">19,7 h registradas</div>
+              <div class="review-date">Publicada el 13 de marzo</div>
+              <span class="badge-early">RESEÑA DE ACCESO ANTICIPADO</span>
+            </div>
+          </div>
+          <div class="review-text">Solasta 2 es, sinceramente, un juegazo. El combate táctico es de lo mejor que hay
+            ahora mismo si te gusta el rol clásico: posicionamiento, alturas, hechizos bien pensados, enemigos que no
+            son sacos de puntos de vida… Se nota muchísimo que está hecho por gente que entiende lo que es una partida
+            de rol de mesa.
+
+            También hay que decir que todavía se nota que está en una fase temprana. Faltan bastantes mecánicas, hay
+            sistemas que parecen aún a medio desarrollar y en general hay pequeñas cosas que necesitan pulido. Nada
+            grave, pero sí lo suficiente como para notar que el juego aún está "en construcción".
+
+            De momento: muy buenas bases, mucho potencial… y ganas de ver hasta dónde llega.
+
+            Peeero… tengo una queja muy concreta.
+
+            Yo, desde que existen los RPG, juego siempre igual. Soy un hombre sencillo: entro al creador de personajes,
+            busco "enano", le pongo barba hasta la cintura, cara de haber peleado con un oso, pecho como la puerta de un
+            castillo y listo. Ese es mi héroe.</div>
+          <div class="review-footer">
+            <span class="review-game">Solasta II</span>
+            <div class="review-comments"><span class="ico-comment">🗨</span> 3</div>
+          </div>
+        </article>
+
+
+        <article class="review-card">
+          <div class="review-useful">A 12 personas les pareció útil esta reseña</div>
+          <div class="review-header">
+            <img class="review-avatar"
+              src="https://i.redd.it/made-these-for-my-steam-pfp-v0-p5zlum633xae1.png?width=573&format=png&auto=webp&s=75780a156859219a16961c4554834459a7716469"
+              alt="ManolitoPistolas69">
+            <div class="review-meta">
+              <div class="review-verdict">
+                <img class="verdict-icon"
+                  src="https://community.akamai.steamstatic.com/public/shared/images/userreviews/icon_thumbsDown.png?v=1"
+                  alt="👎">
+                <span class="verdict-no">No recomendado</span>
+              </div>
+              <div class="review-hours">20 h registradas</div>
+              <div class="review-date">Publicada el 2 de enero</div>
+            </div>
+          </div>
+          <div class="review-text">Entré por curiosidad y me quedé esperando que el juego ofreciera algo más que su
+            estética.
+            Tras 20 horas, el contenido es repetitivo y superficial. La interfaz es confusa y el rendimiento irregular.
+            No es que el concepto sea el problema, es la ejecución: poco pulido, poco equilibrado y sin suficiente
+            profundidad.</div>
+          <div class="review-footer">
+            <span class="review-game">Among Us</span>
+            <div class="review-comments"><span class="ico-comment">🗨</span> 0</div>
+          </div>
+        </article>
+
+
+        <article class="review-card">
+          <div class="review-useful">A 48 personas les pareció útil esta reseña &nbsp;·&nbsp; <span class="hl">♥
+              7</span></div>
+          <div class="review-header">
+            <img class="review-avatar" src="https://i.pinimg.com/474x/e4/92/cb/e492cbc4381f8208d47b20dff57b9a0e.jpg"
+              alt="Caasi">
+            <div class="review-meta">
+              <div class="review-verdict">
+                <img class="verdict-icon"
+                  src="https://community.akamai.steamstatic.com/public/shared/images/userreviews/icon_thumbsUp.png?v=1"
+                  alt="👍">
+                <span class="verdict-yes">Recomendado</span>
+              </div>
+              <div class="review-hours">210 h registradas</div>
+              <div class="review-date">Publicada el 18 de febrero</div>
+            </div>
+          </div>
+          <div class="review-text">Assassin's Creed II no es solo uno de esos juegos que "vale la pena probar"… es una
+            experiencia histórica inolvidable.
+            Desde recorrer las calles de Florencia y Venecia, hasta descubrir la historia de Ezio, cada misión me
+            mantuvo enganchado.
+            210 horas después… sigo encontrando cosas nuevas que admirar.</div>
+          <div class="review-footer">
+            <span class="review-game">Assassin's Creed III</span>
+            <div class="review-comments"><span class="ico-comment">🗨</span> 4</div>
+          </div>
+        </article>
+
+
+        <article class="review-card">
+          <div class="review-useful">A 91 personas les pareció útil esta reseña</div>
+          <div class="review-header">
+            <img class="review-avatar" src="https://cdna.artstation.com/p/assets/images/images/045/865/434/large/macedzn-bcdd4fa8-1193-4954-bbe1-89a929a11610.jpg?1643731050"
+              alt="Isaac">
+            <div class="review-meta">
+              <div class="review-verdict">
+                <img class="verdict-icon"
+                  src="https://community.akamai.steamstatic.com/public/shared/images/userreviews/icon_thumbsDown.png?v=1"
+                  alt="👎">
+                <span class="verdict-no">No recomendado</span>
+              </div>
+              <div class="review-hours">46 128 h totales</div>
+              <div class="review-date">Publicada el 5 de marzo</div>
+            </div>
+          </div>
+          <div class="review-text">Empecé probándolo "un rato" y, sin darme cuenta, han pasado 46.128 horas.
+            El juego ha cambiado, yo he cambiado, pero siempre ha estado ahí.
+            No es perfecto, pero pocos juegos consiguen que vuelvas una y otra vez durante años.</div>
+          <div class="review-footer">
+            <span class="review-game">DOOM Eternal</span>
+            <div class="review-comments"><span class="ico-comment">🗨</span> 2</div>
+          </div>
+        </article>
+
+
+        <div class="section-title">Guías destacadas</div>
+        <div class="guides-grid">
+
+          <div class="guide-card">
+            <div class="guide-inner">
+              <img class="guide-thumb"
+                src="https://image.api.playstation.com/cdn/EP0700/CUSA03365_00/OFMeAw2KhrdaEZAjW1f3tCIXbogkLpTC.png?w=620&thumb=false"
+                alt="Dark Souls III">
+              <div>
+                <div class="guide-name">DARK SOULS™ III: Guía</div>
+                <div class="guide-subtitle">Cómo ser un caballero Solaire</div>
+              </div>
+            </div>
+            <div class="guide-desc">Como ser un caballero Solaire. Ha sido mucho esfuerzo (Un par de minutos), espero
+              que os guste, iré mejorándola (si me apetece).</div>
+            <div class="guide-footer">
+              <span class="guide-stars">★★★★★</span>
+              <div class="guide-stats"><span>♥ 5</span><span>🗨 107</span></div>
+            </div>
+            <div class="guide-game-tag">DARK SOULS™ III</div>
+          </div>
+
+          <div class="guide-card">
+            <div class="guide-inner">
+              <img class="guide-thumb" src="https://i.3djuegos.com/juegos/17520/fotos/ficha/-5245512.webp"
+                alt="Among Us">
+              <div>
+                <div class="guide-name">Among Us: Guía</div>
+                <div class="guide-subtitle">TODOS LOS LOGROS DE AMONG US</div>
+              </div>
+            </div>
+            <div class="guide-desc">Esta es la guía definitiva sobre los logros de Among Us, también disponible en
+              inglés.</div>
+            <div class="guide-footer">
+              <span class="guide-stars">★★★★☆</span>
+              <div class="guide-stats"><span>♥ 7</span><span>🗨 0</span></div>
+            </div>
+            <div class="guide-game-tag">Among Us</div>
+          </div>
+
+          <div class="guide-card">
+            <div class="guide-inner">
+              <img class="guide-thumb" src="https://i.pinimg.com/236x/a6/a4/3c/a6a43ce68fd3ceecbdfad90a088ae3b9.jpg"
+                alt="GTA V">
+              <div>
+                <div class="guide-name">Poker Night at the Inventory: Guía</div>
+                <div class="guide-subtitle">Cómo jugar poker para tarados</div>
+              </div>
+            </div>
+            <div class="guide-desc">Sabes jugar al poker?? Yo no pero aun así disfruto de este juego y obtuve todos los
+              items raros, te voy a enseñar lo simple y algunas estrategias.</div>
+            <div class="guide-footer">
+              <span class="guide-stars">★★★☆☆</span>
+              <div class="guide-stats"><span>♥ 0</span><span>🗨 4</span></div>
+            </div>
+            <div class="guide-game-tag">Poker Night at the Inventory</div>
+          </div>
+
+        </div>
+
+
+        <div class="section-title">Artwork de la comunidad</div>
+        <div class="artwork-grid">
+
+          <div class="artwork-item">
+            <img
+              src="https://images.steamusercontent.com/ugc/10456301528365423651/C36560683E467DF5749BBC1299EA130E890A7D89/?imw=1920&&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=false"
+              alt="Artwork 1">
+            <div class="artwork-overlay">
+              <div class="artwork-stats">
+                <span>👍 115</span><span>🗨 0</span><span>♥ 91</span>
+              </div>
+              <button class="award-btn">Premiar</button>
+            </div>
+          </div>
+
+          <div class="artwork-item">
+            <img
+              src="https://images.steamusercontent.com/ugc/16155793571404428862/71918C3F024160A1AFFD5C248DA2757F6CACB39E/?imw=1920&&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=false"
+              alt="Artwork 2">
+            <div class="artwork-overlay">
+              <div class="artwork-stats">
+                <span>👍 112</span><span>🗨 0</span><span>♥ 55</span>
+              </div>
+              <button class="award-btn">Premiar</button>
+            </div>
+          </div>
+
+          <div class="artwork-item">
+            <img
+              src="https://images.steamusercontent.com/ugc/14019584504498895041/70AB5614B7678EC9F5F862D907CD391A575FA6EC/?imw=1024&&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=false"
+              alt="Artwork 3">
+            <div class="artwork-overlay">
+              <div class="artwork-stats">
+                <span>👍 88</span><span>🗨 2</span><span>♥ 44</span>
+              </div>
+              <button class="award-btn">Premiar</button>
+            </div>
+          </div>
+
+          <div class="artwork-item">
+            <img
+              src="https://images.steamusercontent.com/ugc/18229976125441651222/47D8D988AE691181D693AA902359AD60F712179D/?imw=1920&&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=false"
+              alt="Artwork 4">
+            <div class="artwork-overlay">
+              <div class="artwork-stats">
+                <span>👍 73</span><span>🗨 1</span><span>♥ 29</span>
+              </div>
+              <button class="award-btn">Premiar</button>
+            </div>
+          </div>
+
+        </div>
+
+
+        <div class="section-title">Vídeo destacado</div>
+        <div class="video-section">
+          <iframe src="https://www.youtube.com/embed/wkAB7ggFzOs?si=chhQ-kEWQHlYdE18" title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+
+      </section>
+    </div>
+
+  </main>
+
+  <footer>
+    <div>
+      <h6>
+        <p>© 2025 Steam. Todos los derechos reservados.</p>
+       <a href="https://store.steampowered.com/privacy_agreement/" style="color: #8f98a0">Política de Privacidad</a>
+                <a href="https://store.steampowered.com/legal/" style="color: #8f98a0">Legal</a>
+                <a href="https://store.steampowered.com/subscriber_agreement/" style="color: #8f98a0">Acuerdo de Suscriptor</a>
+      </h6>
+    </div>
+  </footer>
+
+</body>
+
+</html>
