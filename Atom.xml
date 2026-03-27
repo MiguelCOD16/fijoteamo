@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Steam - Ofertas Destacadas</title>[cite: 1]
+  <link href="https://store.steampowered.com" />[cite: 1]
+  <subtitle>Últimas ofertas y juegos populares en Steam</subtitle>[cite: 1]
+  <updated>2026-03-27T12:00:00Z</updated>
+  <id>https://store.steampowered.com/</id>[cite: 1]
+
+  <entry>
+    <title>Cyber Adventure 2077</title>[cite: 1]
+    <link href="https://store.steampowered.com/app/1091500/Cyberpunk_2077/" />[cite: 1]
+    <id>https://store.steampowered.com/app/1091500/Cyberpunk_2077/</id>[cite: 1]
+    <summary>Aventura épica en mundo abierto. Precio: 59.99$</summary>[cite: 1]
+  </entry>
+
+  <entry>
+    <title>Among Us</title>[cite: 1]
+    <link href="https://store.steampowered.com/app/945360/Among_Us/" />[cite: 1]
+    <id>https://store.steampowered.com/app/945360/Among_Us/</id>[cite: 1]
+    <summary>Multijugador de deducción social. Precio: 3.49$ (−30%)</summary>[cite: 1]
+  </entry>
+
+  <entry>
+    <title>DOOM Eternal</title>[cite: 1]
+    <link href="https://store.steampowered.com/app/782330/DOOM_Eternal/" />[cite: 1]
+    <id>https://store.steampowered.com/app/782330/DOOM_Eternal/</id>[cite: 1]
+    <summary>FPS de acción intensa. Precio: 19.99$ (−50%)</summary>[cite: 1]
+  </entry>
+
+  <entry>
+    <title>Ori and the Will of the Wisps</title>[cite: 1]
+    <link href="https://store.steampowered.com/app/1057090/Ori_and_the_Will_of_the_Wisps/" />[cite: 1]
+    <id>https://store.steampowered.com/app/1057090/Ori_and_the_Will_of_the_Wisps/</id>[cite: 1]
+    <summary>Plataformas y aventura emocional. Precio: 13.49$ (−55%)</summary>[cite: 1]
+  </entry>
+
+  <entry>
+    <title>Assassin's Creed III</title>[cite: 1]
+    <link href="https://store.steampowered.com/app/911400/Assassins_Creed_III_Remastered/" />[cite: 1]
+    <id>https://store.steampowered.com/app/911400/Assassins_Creed_III_Remastered/</id>[cite: 1]
+    <summary>Aventura épica en mundo abierto. Precio: 9.99$ (−75%)</summary>[cite: 1]
+  </entry>
+
+  <entry>
+    <title>Expedition 33</title>[cite: 1]
+    <link href="https://store.steampowered.com/app/1903340/Clair_Obscur_Expedition_33/" />[cite: 1]
+    <id>https://store.steampowered.com/app/1903340/Clair_Obscur_Expedition_33/</id>[cite: 1]
+    <summary>Aventura por turnos. Precio: 39.99$ (−20%)</summary>[cite: 1]
+  </entry>
+
+  <entry>
+    <title>Elden Ring</title>[cite: 1]
+    <link href="https://store.steampowered.com/app/1245620/ELDEN_RING/" />[cite: 1]
+    <id>https://store.steampowered.com/app/1245620/ELDEN_RING/</id>[cite: 1]
+    <summary>Aventura épica en mundo abierto. Precio: 59.99$</summary>[cite: 1]
+  </entry>
+</feed>
